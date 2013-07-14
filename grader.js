@@ -88,7 +88,6 @@ if(require.main == module) {
 	process.exit(1);
     }
 
-    var checkJson = null;
     var checks = loadChecks(program.checks);
 
     if (program.file) {
